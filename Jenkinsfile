@@ -8,8 +8,7 @@ pipeline {
   stages {
     stage('new') {
       steps {
-        sh '''gem install cucumber
-bundle exec rake play'''
+        sh 'echo "test"'
       }
     }
   }
