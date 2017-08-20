@@ -9,6 +9,7 @@ pipeline {
     stage('new') {
       steps {
         sh 'echo "test"'
+        sh 'bundle exec rake play'
       }
     }
   }
