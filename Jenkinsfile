@@ -1,7 +1,7 @@
 pipeline {
   agent none
   stages {
-    stage('') {
+    stage('new') {
       steps {
         sh '''gem install cucumber
 bundle exec rake play'''
