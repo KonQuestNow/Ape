@@ -1,9 +1,10 @@
 pipeline {
   agent none
   stages {
-    stage('error') {
+    stage('') {
       steps {
-        echo 'test'
+        sh '''gem install cucumber
+bundle exec rake play'''
       }
     }
   }
